@@ -1,9 +1,11 @@
+[![CRAN](https://www.r-pkg.org/badges/version/kinematics)](https://cran.r-project.org/web/packages/kinematics/index.html)
 [![Build Status](https://github.com/PabRod/kinematics/workflows/R-CMD-check/badge.svg?branch=main)](https://github.com/PabRod/kinematics/actions)
 [![codecov](https://codecov.io/gh/PabRod/kinematics/graph/badge.svg)](https://codecov.io/gh/PabRod/kinematics)
+[![codecov](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5107804.svg)](https://doi.org/10.5281/zenodo.5107804)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8B%20%20%E2%97%8F%20%20%E2%97%8B-orange)](https://fair-software.eu)
-
+[![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8B-yellow)](https://fair-software.eu)
+[![Downloads](https://cranlogs.r-pkg.org/badges/kinematics)](https://cran.r-project.org/web/packages/kinematics/index.html)
 
 # Kinematics <img src="inst/img/logo.png" width="120" align="right" />
 
@@ -41,12 +43,11 @@ instantaneous speeds, accelerations and curvatures.
 This is an *R* package. [*R*](https://www.r-project.org/) is required,
 [*RStudio*](https://www.rstudio.com/) is recommended.
 
-In order to use the package, we have to install it. The easiest way to
-install it is via the [`devtools`](https://devtools.r-lib.org/) official
-CRAN package.
+In order to use the package, we have to install it. The package is in CRAN, so 
+we can install it easily by typing:
 
 ```r
-devtools::install_github("PabRod/kinematics")
+install.packages("kinematics")
 ```
 
 After installing, we have to attach the package as usual:

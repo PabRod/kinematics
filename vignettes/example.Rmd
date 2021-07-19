@@ -32,11 +32,11 @@ Our package returns different properties of that movement, such as the instantan
 
 This is an _R_ package. [_R_](https://www.r-project.org/) is required, [_RStudio_](https://www.rstudio.com/) is recommended.
 
-In order to use the package, we have to install it.
-The easiest way to install it is via the [`devtools`](https://devtools.r-lib.org/) official CRAN package.
+In order to use the package, we have to install it. The package is in CRAN, so 
+we can install it easily by typing:
 
 ```r
-devtools::install_github("PabRod/kinematics")
+install.packages("kinematics")
 ```
 
 After installing, we have to attach the package as usual:
