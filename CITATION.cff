@@ -1,0 +1,35 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: kinematics
+message: Did you find our software useful? Please cite us.
+type: software
+authors:
+  - given-names: Pablo
+    family-names: Rodríguez-Sánchez
+    email: pablo.rodriguez.sanchez@gmail.com
+    orcid: 'https://orcid.org/0000-0002-2855-940X'
+  - given-names: Sanne
+    family-names: van den Berg
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.5107804
+    description: Zenodo
+repository-code: 'https://github.com/PabRod/kinematics'
+url: >-
+  https://cran.r-project.org/web/packages/kinematics/index.html
+abstract: >-
+  Allows analyzing time series representing
+  two-dimensional movements. It accepts a data frame
+  with a time (t), horizontal (x) and vertical (y)
+  coordinate as columns, and returns several
+  dynamical properties such as speed, acceleration or
+  curvature.
+keywords:
+  - biology
+  - ethology
+  - kinematics
+  - mechanics
+  - r
+
