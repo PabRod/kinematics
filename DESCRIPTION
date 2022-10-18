@@ -23,4 +23,4 @@ Imports:
     numDeriv,
     stats
 Depends: 
-    R (>= 3.50)
+    R (>= 3.5)
