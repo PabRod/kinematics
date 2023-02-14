@@ -38,6 +38,26 @@ two dimensions.
 Our package returns different properties of that movement, such as the
 instantaneous speeds, accelerations and curvatures.
 
+## Impact and citation
+
+This package has been used in the following research papers:
+
+- Among-individual variation in the swimming behaviour of the amphipod _Gammarus pulex_ under dark and light conditions, [Science of The Total Environment, 2023](https://doi.org/10.1016/j.scitotenv.2023.162177).
+- Effects of the antidepressant fluoxetine on the swimming behaviour of the amphipod _Gammarus pulex_: Comparison of short-term and long-term toxicity in the laboratory and the semi-field, [Science of The Total Environment,
+2023](https://doi.org/10.1016/j.scitotenv.2023.162173).
+
+Please cite if you use it. You can do this easily with one of these options:
+
+- The `cite this repository` menu in the right tab.
+- The [citation file](./CITATION.cff).
+- If you prefer to copypaste, here you have the APA and BibTex strings:
+
+`Rodríguez-Sánchez, P., & van den Berg, S. kinematics [Computer software]. https://github.com/PabRod/kinematics`
+
+---
+
+`@software{Rodriguez-Sanchez_kinematics,author = {Rodríguez-Sánchez, Pablo and van den Berg, Sanne},license = {MIT},title = {{kinematics}},url = {https://github.com/PabRod/kinematics}}`
+
 ## Installation
 
 This is an *R* package. [*R*](https://www.r-project.org/) is required,
