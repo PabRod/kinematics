@@ -85,25 +85,25 @@ And we are ready to go!
 
 The input is a data frame like the one below (see subsection _Movement and how to store it_ below):
 
-| t   | x         | y         |
-|-----|-----------|-----------|
-| 0   | `<float>` | `<float>` |
-| 0.1 | `<float>` | `<float>` |
-| 0.2 | `<float>` | `<float>` |
-| 0.3 | `<float>` | `<float>` |
-| ... | ...       | ...       |
+| t     | x         | y         |
+|-------|-----------|-----------|
+| $t_0$ | `<float>` | `<float>` |
+| $t_1$ | `<float>` | `<float>` |
+| $t_2$ | `<float>` | `<float>` |
+| $t_3$ | `<float>` | `<float>` |
+| ...   | ...       | ...       |
 
 #### Output
 
-The output extends the original data frame with extra dynamical information:
+When the input is fed to the `append_dynamics` function, the output extends the original data frame with all the extra dynamical information available in the package:
 
-| t   | x         | y         |  | Velocity   | Acceleration | Curvature | Displacement |
-|-----|-----------|-----------|--|------------|--------------|-----------|:-------------|
-| 0   | `<float>` | `<float>` |  | `<vector>` | `<vector>`   | `<float>` | `<vector>`   |
-| 0.1 | `<float>` | `<float>` |  | `<vector>` | `<vector>`   | `<float>` | `<vector>`   |
-| 0.2 | `<float>` | `<float>` |  | `<vector>` | `<vector>`   | `<float>` | `<vector>`   |
-| 0.3 | `<float>` | `<float>` |  | `<vector>` | `<vector>`   | `<float>` | `<vector>`   |
-| ... | ...       | ...       |  | ...        | ...          | ...       | ...          |
+| t     | x         | y         |  | Velocity   | Acceleration | Curvature | Displacement |
+|-------|-----------|-----------|--|------------|--------------|-----------|:-------------|
+| $t_0$ | `<float>` | `<float>` |  | `<vector>` | `<vector>`   | `<float>` | `<vector>`   |
+| $t_1$ | `<float>` | `<float>` |  | `<vector>` | `<vector>`   | `<float>` | `<vector>`   |
+| $t_2$ | `<float>` | `<float>` |  | `<vector>` | `<vector>`   | `<float>` | `<vector>`   |
+| $t_3$ | `<float>` | `<float>` |  | `<vector>` | `<vector>`   | `<float>` | `<vector>`   |
+| ...   | ...       | ...       |  | ...        | ...          | ...       | ...          |
 
 
 ### Movement and how to store it
