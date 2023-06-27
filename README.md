@@ -80,6 +80,32 @@ And we are ready to go!
 
 ## Basic usage
 
+### In a nutshell
+#### Input
+
+The input is a data frame like the one below (see subsection _Movement and how to store it_ below):
+
+| t   | x         | y         |
+|-----|-----------|-----------|
+| 0   | `<float>` | `<float>` |
+| 0.1 | `<float>` | `<float>` |
+| 0.2 | `<float>` | `<float>` |
+| 0.3 | `<float>` | `<float>` |
+| ... | ...       | ...       |
+
+#### Output
+
+The output extends the original data frame with extra dynamical information:
+
+| t   | x         | y         |  | Velocity   | Acceleration | Curvature | Displacement |
+|-----|-----------|-----------|--|------------|--------------|-----------|:-------------|
+| 0   | `<float>` | `<float>` |  | `<vector>` | `<vector>`   | `<float>` | `<vector>`   |
+| 0.1 | `<float>` | `<float>` |  | `<vector>` | `<vector>`   | `<float>` | `<vector>`   |
+| 0.2 | `<float>` | `<float>` |  | `<vector>` | `<vector>`   | `<float>` | `<vector>`   |
+| 0.3 | `<float>` | `<float>` |  | `<vector>` | `<vector>`   | `<float>` | `<vector>`   |
+| ... | ...       | ...       |  | ...        | ...          | ...       | ...          |
+
+
 ### Movement and how to store it
 
 This is a package for studying movement. So we need a way of coding
