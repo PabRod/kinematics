@@ -78,10 +78,10 @@ library(kinematics)
 
 And we are ready to go!
 
-## Basic usage
+## In a nutshell
 
-### In a nutshell
-#### Input
+This package takes trajectories and returns a whole set of kinematical features.
+### Input
 
 The input is a data frame like the one below (see subsection _Movement and how to store it_ below):
 
@@ -93,7 +93,7 @@ The input is a data frame like the one below (see subsection _Movement and how t
 | $t_3$ | `<float>` | `<float>` |
 | ...   | ...       | ...       |
 
-#### Output
+### Output
 
 When the input is fed to the `append_dynamics` function, the output extends the original data frame with all the extra dynamical information available in the package:
 
@@ -105,7 +105,7 @@ When the input is fed to the `append_dynamics` function, the output extends the 
 | $t_3$ | `<float>` | `<float>` |  | `<vector>` | `<vector>`   | `<float>` | `<vector>`   |
 | ...   | ...       | ...       |  | ...        | ...          | ...       | ...          |
 
-
+## Detailed tutorial
 ### Movement and how to store it
 
 This is a package for studying movement. So we need a way of coding
