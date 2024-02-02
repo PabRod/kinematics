@@ -228,9 +228,13 @@ A common way of describing movement in physics is by assigning a
 function of time to *x* and *y*. For instance, an Archimedean spiral is
 known to follow the equations below:
 
-<img src="https://render.githubusercontent.com/render/math?math=x(t) = t cos(t)">
+$$
+x(t) = t \cos(t)
+$$
 
-<img src="https://render.githubusercontent.com/render/math?math=y(t) = t sin(t)">
+$$
+y(t) = t \sin(t)
+$$
 
 We can encode it, and sample at intervals of 0.05 units of time, using
 the snippet below:
