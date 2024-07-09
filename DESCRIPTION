@@ -25,3 +25,4 @@ Imports:
     stats
 Depends: 
     R (>= 3.5)
+URL: https://pabrod.github.io/kinematics/
