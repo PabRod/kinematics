@@ -8,3 +8,6 @@
 ^\.gitignore$
 ^\.Rhistory$
 ^kinematics\.Rcheck$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

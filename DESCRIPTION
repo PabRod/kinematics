@@ -18,7 +18,8 @@ Suggests:
     utils,
     markdown,
     rmarkdown,
-    ggplot2
+    ggplot2,
+    pkgdown
 Imports: 
     numDeriv,
     stats
