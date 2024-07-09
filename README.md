@@ -7,7 +7,7 @@
 [![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8B-yellow)](https://fair-software.eu)
 [![Downloads](https://cranlogs.r-pkg.org/badges/kinematics)](https://cran.r-project.org/web/packages/kinematics/index.html)
 
-# Kinematics <img src="inst/img/logo.png" width="120" align="right" />
+# Kinematics <img src="man/figures/logo.png" width="120" align="right" />
 
 Allows analyzing time series representing two-dimensional movements.
 It accepts a data frame with a time (t), horizontal (x) and vertical (y) 
@@ -140,7 +140,7 @@ that represents five steps of what seems to be a parabolic movement:
 plot(mov$x, mov$y, xlab = "x", ylab = "y")
 ```
 
-![](inst/img/parabolic-plot-1.png)
+![](man/figures/parabolic-plot-1.png)
 
 Notice that the insides of the data frame look like below:
 
@@ -218,7 +218,7 @@ ggplot(data = mov_analyzed,
        scale_color_gradient(low="blue", high="red")
 ```
 
-![](inst/img/ggplot-1.png)
+![](man/figures/ggplot-1.png)
 
 ## More realistic examples
 
@@ -259,7 +259,7 @@ The data looks like this:
 plot(mov$x, mov$y, xlab = "x", ylab = "y", asp = 1)
 ```
 
-![](inst/img/spiral-plot-1.png)
+![](man/figures/spiral-plot-1.png)
 
 And repeating the analysis shown in the previous example, we can
 significantly enrich the features we can see on the data. For instance,
@@ -276,7 +276,7 @@ ggplot(data = mov_analyzed,
        scale_color_gradient(low="blue", high="red")
 ```
 
-![](inst/img/spiral-ggplot-1.png)
+![](man/figures/spiral-ggplot-1.png)
 
 ### Sampled curve
 
@@ -299,7 +299,7 @@ mov <- kinematics::example_mov
 
 plot(mov$x, mov$y, xlab = "x", ylab = "y", asp = 1)
 ```
-![](inst/img/load-data-1.png)
+![](man/figures/load-data-1.png)
 
 Using `append_dynamics` we can extract a lot of significant information:
 And this is an example of how our analysis enriches the information
@@ -319,7 +319,7 @@ ggplot(data = mov_analyzed,
        scale_color_gradient(low="blue", high="red")
 ```
 
-![](inst/img/plot-data-1.png)
+![](man/figures/plot-data-1.png)
 
 Or a histogram about accelerations:
 
@@ -330,7 +330,7 @@ hist(mov_analyzed$aaccel,
      main = 'Acceleration histogram')
 ```
 
-![](inst/img/hist-data-1.png)
+![](man/figures/hist-data-1.png)
 
 ## Citation
 
