@@ -11,3 +11,11 @@
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
+^CITATION\.cff$
+
+## JASP interface
+^.editorconfig$
+^inst/help$
+^inst/icons$
+^inst/qml$
+^inst/Description\.qml$
